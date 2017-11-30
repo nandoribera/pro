@@ -12,12 +12,19 @@ package unidad1.Ejercicios.EjerciciosAlgoritmos1;
 //Calcular e imprimir el producto 1 * 2 * 3 * 4 * 5 * ... * 20.
 public class Ejercicio7 {
     public static void main(String[] args) {
-        for (int num = 1, multi = 1; num < 20 + 1; num++){
+        double multi = 1;
+        System.out.println("El resultado de la multiplicación de los "
+                + "20 primeros números es: ");
+        for (int num = 1; num <=20; num++){
+                if (num <20){
                 multi = multi * num;
-                System.out.print(num);
-                System.out.println(" = " + multi);
+                System.out.print(num + " * ");
+                }
+                else {
+                    System.out.print(num + " = ");
+                }
             }
-        System.out.print(multi);
+            System.out.println(multi);
         }
         
     }
