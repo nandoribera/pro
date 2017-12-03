@@ -4,5 +4,8 @@ Diario Subidas de programación
 Subida unidades 1, 2 y 3
 
 20173011
-Subida Unidad6
+Subida Unidad6 Strings
 Actualización Unidad1
+
+20170312
+Subida Unidad6 Vectores
